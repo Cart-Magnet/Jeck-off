@@ -6,8 +6,8 @@ local backpack=speaker:FindFirstChildWhichIsA("Backpack")
 if not humanoid or not backpack then return end
 
 local tool=Instance.new("Tool")
-tool.Name="Jerk Off"
-tool.ToolTip="jorking it"
+tool.Name="Tool"
+tool.ToolTip="Tool"
 tool.RequiresHandle=false
 tool.Parent=backpack
 
